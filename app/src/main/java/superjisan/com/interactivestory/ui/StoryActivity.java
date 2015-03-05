@@ -6,9 +6,12 @@ import android.os.Bundle;
 import android.util.Log;
 
 import superjisan.com.interactivestory.R;
+import superjisan.com.interactivestory.model.Page;
 
 
 public class StoryActivity extends Activity {
+
+    private Page[] mPages;
 
     public static final String TAG = StoryActivity.class.getSimpleName();
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,8 +25,6 @@ public class StoryActivity extends Activity {
         }
 
         Log.d(TAG, name);
-
-
     }
 
 
