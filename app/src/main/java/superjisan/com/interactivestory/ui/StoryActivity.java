@@ -1,11 +1,11 @@
-package superjisan.com.interactivestory;
+package superjisan.com.interactivestory.ui;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
+
+import superjisan.com.interactivestory.R;
 
 
 public class StoryActivity extends Activity {
