@@ -36,11 +36,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Enter your name to begin"
         android:ems="10"
         android:id="@+id/nameEditText"
         android:layout_above="@id/startButton"
         android:layout_alignLeft="@id/titleImage"
-        android:layout_alignStart="@id/titleImage" />
+        android:layout_alignStart="@id/titleImage"
+        android:hint="Enter your name to begin" />
 
 </RelativeLayout>
