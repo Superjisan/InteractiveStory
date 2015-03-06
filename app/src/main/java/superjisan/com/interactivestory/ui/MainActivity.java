@@ -38,5 +38,11 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+    protected void onResume(){
+      super.onResume();
+      mNameField.setText("");
+
+    };
+
 
 }
